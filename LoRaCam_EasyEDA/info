@@ -1,0 +1,239 @@
+{
+  "uuid": "c254c7509eaacb3780d477082253e91d",
+  "path": "Offline/LoRaCAM",
+  "name": "LoRaCAM",
+  "content": "",
+  "created_at": "2023-08-20 14:13:57",
+  "updated_at": "2023-09-22 16:45:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ff152dc783ff26193b293062364d8ee2",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e72f61c2dbd9469cb1e26d5bf427e3d8": 1,
+        "1f785ee0f729472eae11899cf0ae61b4": 3,
+        "d8bc639164374f4f826a4f4e982ca55f": 1,
+        "27e8fd0cd9744cda869d603d1d0d020f": 1,
+        "2afe3c068f054613a3c024fce1c6d42e": 1,
+        "1ec79d7ca22440918881e1e6d9971d2c": 1,
+        "3721972c581d4f99b226effb1db7a790": 1,
+        "784beb8f9b034464b6f748aa92e5d19b": 1,
+        "bb009484ef804a24ac5d18c54b249586": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BUZZER",
+          1,
+          "BUZZER-12MM",
+          "B",
+          {
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "BUZZER",
+            "Manufacturer Part": "",
+            "puuid": "95b694801b43434aaa24ff5c53669890",
+            "uuid": "784beb8f9b034464b6f748aa92e5d19b"
+          }
+        ],
+        [
+          "ESP32CAM",
+          1,
+          "ESP32CAM_BOARD",
+          "ESP32CAM",
+          {
+            "Contributor": "sakuyaki",
+            "spiceSymbolName": "ESP32CAM",
+            "Manufacturer Part": "",
+            "puuid": "2407f971fa01475390a13bece544b363",
+            "uuid": "d8bc639164374f4f826a4f4e982ca55f"
+          }
+        ],
+        [
+          "IPEX",
+          1,
+          "IPEX-SMD_HC-RF-IPEX0303-01",
+          "IPEX",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894919",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Manufacturer Part": "HC-RF-IPEX0303-01",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "IPEX",
+            "puuid": "7fa8bd2ff98b42b1a75d15d6d087d735",
+            "uuid": "1ec79d7ca22440918881e1e6d9971d2c"
+          }
+        ],
+        [
+          "Programmazione",
+          1,
+          "HDR-TH_2P-P2.54-V-M-1",
+          "J1",
+          {
+            "Supplier": "",
+            "Supplier Part": "NONE",
+            "Manufacturer": "NONE",
+            "Manufacturer Part": "NONE",
+            "Contributor": "RaspAutomacao",
+            "spiceSymbolName": "JUMPERTHRUHOLE",
+            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
+            "uuid": "1f785ee0f729472eae11899cf0ae61b4"
+          }
+        ],
+        [
+          "UART",
+          1,
+          "HDR-TH_2P-P2.54-V-M-1",
+          "J2",
+          {
+            "Supplier": "",
+            "Supplier Part": "NONE",
+            "Manufacturer": "NONE",
+            "Manufacturer Part": "NONE",
+            "Contributor": "RaspAutomacao",
+            "spiceSymbolName": "JUMPERTHRUHOLE",
+            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
+            "uuid": "1f785ee0f729472eae11899cf0ae61b4"
+          }
+        ],
+        [
+          "Alimentazione",
+          1,
+          "HDR-TH_2P-P2.54-V-M-1",
+          "J3",
+          {
+            "Supplier": "",
+            "Supplier Part": "NONE",
+            "Manufacturer": "NONE",
+            "Manufacturer Part": "NONE",
+            "Contributor": "RaspAutomacao",
+            "spiceSymbolName": "JUMPERTHRUHOLE",
+            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
+            "uuid": "1f785ee0f729472eae11899cf0ae61b4"
+          }
+        ],
+        [
+          "LED",
+          1,
+          "LED-TH_BD3.0_RED",
+          "LED",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "Supplier Part": "C84774",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-TH-3mm_R",
+            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
+            "uuid": "3721972c581d4f99b226effb1db7a790"
+          }
+        ],
+        [
+          "ADAPTER",
+          1,
+          "ESP8266-ADAPTER",
+          "LORA",
+          {
+            "Contributor": "mratix",
+            "spiceSymbolName": "ESP8266-WITH-ADAPTER",
+            "Manufacturer Part": "",
+            "puuid": "acd49b359794419ba7d364c17bb96702",
+            "uuid": "e72f61c2dbd9469cb1e26d5bf427e3d8"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "SMA",
+          1,
+          "SMA FEMALE VERTICAL MOUNT [PCB]",
+          "SMA",
+          {
+            "Manufacturer": "SHIVRAM",
+            "Manufacturer Part": "SMA-VERTICAL",
+            "Supplier": "SHIVRAM",
+            "Supplier Part": "SMA-VERTICAL",
+            "link": "",
+            "Contributor": "Dhawal Agrawal",
+            "spiceSymbolName": "SMA FEMALE VERTICAL MOUNT",
+            "puuid": "20e682d59ea94794983fcb8151feb9f5",
+            "uuid": "2afe3c068f054613a3c024fce1c6d42e"
+          }
+        ],
+        [
+          "Type C",
+          1,
+          "USB TYPE C 2 PIN",
+          "TYPEC",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "zikratiy",
+            "spiceSymbolName": "usb type C 2 pin",
+            "puuid": "7c1b958094124c5daa04a0571f127bed",
+            "uuid": "27e8fd0cd9744cda869d603d1d0d020f"
+          }
+        ]
+      ],
+      "updateTime": 1695393955,
+      "createTime": 1692533637,
+      "histories": [],
+      "created_at": "2023-08-20 14:13:57",
+      "updated_at": "2023-09-22 16:45:55"
+    },
+    {
+      "uuid": "049cbfa373a7613b1894b663643e427a",
+      "puuid": "c254c7509eaacb3780d477082253e91d",
+      "title": "PCB_LoRaCAM",
+      "filename": "PCB_LoRaCAM.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "95b694801b43434aaa24ff5c53669890": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "7fa8bd2ff98b42b1a75d15d6d087d735": 1
+      },
+      "BOM": [],
+      "updateTime": 1692729914,
+      "createTime": 1692696054,
+      "histories": [],
+      "created_at": "2023-08-22 11:20:54",
+      "updated_at": "2023-08-22 20:45:14"
+    }
+  ],
+  "sort": [],
+  "title": "LoRaCAM",
+  "foldername": "LoRaCAM",
+  "schfilename": "LoRaCAM.json",
+  "schfilemtime": 1695393955969
+}
